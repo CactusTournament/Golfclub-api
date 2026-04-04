@@ -39,3 +39,8 @@ spring.log
 # Misc
 *.sublime-workspace
 *.sublime-project
+
+# Ignore local DB dumps, SSL certs, and local VSCode settings (not needed for submission)
+dump.sql
+global-bundle.pem
+.vscode/
