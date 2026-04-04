@@ -1,0 +1,41 @@
+# Java
+/target/
+*.class
+*.jar
+*.war
+*.iml
+/.idea/
+/.vscode/
+.DS_Store
+*.log
+*.tmp
+*.swp
+
+# Maven
+/logs/
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+.env
+.docker/
+
+# Test output and coverage
+/coverage/
+/test-output/
+/jacoco.exec
+/build/
+
+# Spring Boot
+spring.log
+
+# Misc
+*.sublime-workspace
+*.sublime-project
